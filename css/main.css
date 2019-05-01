@@ -1,0 +1,46 @@
+@font-face{
+font-family: 'RalewayRegular';
+src: url('../fonts/raleway/RalewayRegular.ttf');
+font-weight: normal;
+font-style: normal;
+}
+@font-face{
+ font-family: "RalewayBold";
+ src: url("../fonts/raleway/RalewayBold.ttf") format("truetype");
+ font-style: normal;
+font-weight: bold;
+}
+
+.block {
+	border: 2px solid  #ccc;
+    border-radius: 6px;
+    padding: 2% 4%;
+   // margin-top: 2%;
+    background: #F1F1F1;
+}
+body{
+	//margin: 0 3%;
+	font-weight: 400;
+    background: #F6F6F6;
+}
+ h1, h2, h3{ 
+font-family: "RalewayRegular";
+}
+.hid{
+	visibility: hidden;
+}
+h1,h2{
+   text-align: center; 
+}
+
+p .gray{
+   background: #E3E3E3; 
+   margin-right: 5px;//кнопка
+}
+
+.bottom{ 
+margin-bottom: 2rem;
+ }
+label{
+    font-size: 1.8rem;
+}
